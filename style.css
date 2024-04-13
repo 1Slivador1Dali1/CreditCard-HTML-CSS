@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: 'Ralewey' , sans-serif;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: column;
+    width: 339px;
+    height: 195px;
+    background: linear-gradient(180deg, #3c352e 0%, #12100e 100%);
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 41px 61px 23px;
+}
+
+.logo{
+    width: 51px;
+    height: 31px;
+}
+
+.wifi{
+    padding-top: 15px;
+}
+
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+.number{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 17px;
+}
+
+.name{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 21px;
+    color: #fff;
+}
+
+.date-number{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #fff;
+    padding-top: 40px;
+}
